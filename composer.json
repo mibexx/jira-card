@@ -1,0 +1,27 @@
+{
+  "name"             : "app/jiracard",
+  "license"          : "MIT",
+  "authors"          : [
+    {
+      "name" : "Mike Bertram",
+      "email": "contact@mibexx.de"
+    }
+  ],
+  "require-dev": {
+    "codeception/codeception": "*",
+    "symfony/var-dumper": "*"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "xervice/service": "^1.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AppTest\\": "tests/App/",
+      "DataProvider\\": "src/Generated/"
+    },
+    "psr-0": {
+      "App\\": "src/"
+    }
+  }
+}
